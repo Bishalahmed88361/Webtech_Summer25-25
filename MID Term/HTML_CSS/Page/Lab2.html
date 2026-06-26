@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Registration Form</h1>
+        <form>
+            <fieldset>
+                <legend>Registration Details</legend>
+                
+                <table>
+                    <tbody>
+
+                    <tr>
+                        <td><label for="username">Username:</label></td>
+                        <td><input type="text" id="username" name="username"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" id="password" name="password"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="Phone">Phone No.</label></td>
+                        <td><input type="text" id="Phone" name="Phone"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="Gender">Gender:</label></td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="dob">Date of Birth:</label></td>
+                        <td><input type="date" id="dob" name="dob"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="Profile">Profile Picture:</label></td>
+                        <td><input type="file" id="Profile" name="Profile"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="Address">Address:</label></td>
+                        <td><textarea id="Address" cols="30" rows="5" style="resize: none;"></textarea></td>
+                    </tr>
+
+                    <tr>    
+                        <td> <label for="countryselect">Select Country:</label></td>
+                        <td>
+                            <select id="countryselect" name="countryselect">
+                                <option value="Bangladesh">Bangladesh</option>
+                                <option value="India">India</option>
+                                <option value="USA">USA</option>
+                                <option value="UK">UK</option>
+                                <option value="Canada">Canada</option>
+                            </select>
+                    </tr>
+
+                    <tr>
+                        <td><label for="hobby">Select Hobby:</label></td>
+                            <td>
+                            <input type="checkbox" id="hobby1" name="hobby" value="Reading">
+                            <label for="hobby1">Reading</label>
+                            <input type="checkbox" id="hobby2" name="hobby" value="Traveling">
+                            <label for="hobby2">Traveling</label>
+                                <br>
+                            <input type="checkbox" id="hobby3" name="hobby" value="Cooking">
+                            <label for="hobby3">Cooking</label>
+                            <input type="checkbox" id="hobby4" name="hobby" value="Sports">
+                            <label for="hobby4">Sports</label> </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" id="condition" name="condition" value="I agree to the terms and conditions" required>
+                        <label for="condition">
+                            <font color="red">I agree to the terms and conditions  *</font> </label></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" id="register" name="register" value="Register"></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </fieldset>
+        </form>
+</div>
+</body>
+</html>
