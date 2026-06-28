@@ -1,0 +1,81 @@
+
+
+div.container{
+    padding: 10px;
+    max-width: 450px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    align-content: center;
+} 
+
+fieldset{
+    border-color: blue;
+    padding: 20px;
+    border-style: solid;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: rgb(140, 239, 247);
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form{
+    display: flex;
+    padding: 10px;
+}
+
+
+
+
+legend{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+#submit{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#clear{
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+
+#pno{
+    border: 0px;
+    border-radius: 5px;
+}
+
+#agen{
+    border-radius: 5px;
+}
+
+#d{
+    border-radius: 5px;
+}
+
+#emailf{
+    border-radius: 5px;
+}
+
+#fnamef{
+    border-radius: 5px;
+}
+
+#pass{
+    border-radius: 5px;
+}
+
+#phne{
+    border-radius: 5px;
+}
